@@ -1,6 +1,7 @@
 ﻿using System.Text.Json.Serialization;
 using Materias.Entities;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 
 namespace Materias;
 
@@ -15,6 +16,8 @@ public class Startup
     
     public void ConfigureServices(IServiceCollection services)
     {
+        Log.Logger = new LoggerConfiguration().ReadFrom.Configuration(Configuration).CreateLogger();
+        
         services.AddControllers().AddJsonOptions(x => x.JsonSerializerOptions.ReferenceHandler
             = ReferenceHandler.IgnoreCycles);// para solucionar el error de entra en bucle el sql porque hay una relacion de muchos a muchos
         

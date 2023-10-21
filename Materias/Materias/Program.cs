@@ -1,6 +1,9 @@
 using Materias;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Host.UseSerilog();
 
 var startup = new Startup(builder.Configuration);
 

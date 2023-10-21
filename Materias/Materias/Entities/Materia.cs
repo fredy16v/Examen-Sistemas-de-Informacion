@@ -15,7 +15,7 @@ public class Materia
     [Required]
     public string Nombre { get; set; }
     [Column("requisito_id")]
-    public int RequisitoId { get; set; }
+    public int? RequisitoId { get; set; }
     [ForeignKey(nameof(RequisitoId))]
     public virtual Materia Requisito { get; set; }
 }

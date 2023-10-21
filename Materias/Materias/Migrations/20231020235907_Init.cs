@@ -18,7 +18,7 @@ namespace Materias.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     codigo = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    requisito_id = table.Column<int>(type: "int", nullable: false)
+                    requisito_id = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {

@@ -10,11 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="501bba92-84c7-407f-8b6e-a685d3392dd5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Materias/Entities/ApplicationDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Materias/Entities/Materia.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Materias/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Materias/.idea/dataSources/c23f1c8d-9a42-487e-8190-73feae5444c8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Materias/.idea/dataSources/c23f1c8d-9a42-487e-8190-73feae5444c8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Materias/.idea/efCoreDialogsState.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Materias/.idea/efCoreDialogsState.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Materias/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Materias/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Materias/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Materias/Entities/Materia.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Materias/Entities/Materia.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Materias/Materias.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Materias/Materias.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Materias/Migrations/20231020053533_Init.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Materias/Migrations/20231020053533_Init.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Materias/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Materias/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Materias/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Materias/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Materias/WeatherForecast.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Materias/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Materias/appsettings.Development.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +30,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/03ac07f794a71f728baff7e267a90dee13380a2532e2062c51debe4571217a/ILoggerT.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -113,7 +122,7 @@
       <updated>1697764197127</updated>
       <workItem from="1697764198918" duration="2121000" />
       <workItem from="1697773631663" duration="4180000" />
-      <workItem from="1697819972937" duration="2394000" />
+      <workItem from="1697819972937" duration="9390000" />
     </task>
     <servers />
   </component>
